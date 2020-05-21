@@ -19,13 +19,13 @@ class_name &class_name::Instance() { \
 
 class noncopyable {
 protected:
-	noncopyable() {}
-	~noncopyable() {}
+    noncopyable() {}
+    ~noncopyable() {}
 private:
-	noncopyable(const noncopyable &that) = delete;
-	noncopyable(noncopyable &&that) = delete;
-	noncopyable &operator=(const noncopyable &that) = delete;
-	noncopyable &operator=(noncopyable &&that) = delete;
+    noncopyable(const noncopyable &that) = delete;
+    noncopyable(noncopyable &&that) = delete;
+    noncopyable &operator=(const noncopyable &that) = delete;
+    noncopyable &operator=(noncopyable &&that) = delete;
 };
 
 std::string exePath();
