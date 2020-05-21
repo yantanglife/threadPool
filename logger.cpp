@@ -16,7 +16,7 @@ INSTANCE_IMP(Logger, exeName());
 #pragma warning(disable:4996)
 #define CLEAR_COLOR 7
 static const WORD LOG_CONST_TABLE[][3] = {
-        {0x97, 0x09 , 'T'},    // 蓝底灰字，黑底蓝字，Windows Console 默认黑底
+        {0x97, 0x09 , 'T'}, // 蓝底灰字，黑底蓝字，Windows Console 默认黑底
         {0xA7, 0x0A , 'D'}, // 绿底灰字，黑底绿字
         {0xB7, 0x0B , 'I'}, // 天蓝底灰字，黑底天蓝字
         {0xE7, 0x0E , 'W'}, // 黄底灰字，黑底黄字
